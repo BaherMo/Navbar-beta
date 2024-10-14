@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1f24;
+    padding: 19px;
+    position: fixed;
+    top: 0;          /* Positions it at the very top */
+    width: 100%;     /* Ensures the header spans the full width of the page */
+    z-index: 1000;   /* Ensures the header stays above other content */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Start {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 220px; 
+    font-family: "Roboto", sans-serif;
+
+}
+
+.Ref {
+    list-style-type: none;
+    display: flex;
+    margin-right: 200px; 
+}
+
+.Ref li {
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Ref li a {
+    text-decoration: none;
+    color: rgb(136, 130, 130);
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+.Ref li a:hover {
+    color: rgb(211, 211, 219);
+
+}
+.footer{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 48px;
+    font-size: 16px;
+    font-weight: 100; 
+    font-family: "Roboto", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+

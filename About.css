@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+    text-align: justify; /* Justify the paragraph text */
+    width: 60%; /* Control the width for better justification */
+    margin: 0 auto; /* Center the paragraph */
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+/* Adjusted paragraph styling */
+.secondabout p {
+    margin: 0; /* Remove default margin for p */
+    font-size: 16px; /* Set font size */
+    text-align: justify; /* Justify the paragraph text */
+    width: 60%; /* Control the width for better justification */
+    margin: 0 auto; /* Center the paragraph */
+    color: black;
+    padding-bottom: 15px;
+    font-size:20px ;
+}
+
+/* Optional: Container for heading and paragraph */
+.secondabout {
+    background-color: #FFFFFF;
+    text-align: center; /* Center text inside the div */
+    padding: 20px; /* Add padding to create space around content */
+}
+
+
+.content {
+    list-style-type: disc; /* Keep bullet points */
+    list-style-position: inside; /* Align bullets with text */
+    margin: 0 auto; /* Center the entire list */
+    padding: 0;
+    width: 60%; /* Control the width of the list */
+    text-align: left; /* Align bullet points text to the left */
+}
+
+.content li {
+    margin-bottom: 10px; /* Space between list items */
+    display: list-item; /* Ensure the bullets appear by keeping list-item display */
+}
+
+.content:after {
+    content: "";
+    display: block;
+    width: 100%;
+}
+.secondabout{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
